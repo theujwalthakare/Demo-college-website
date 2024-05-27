@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-image:linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/kvn_logo.jpg);
+    background-size: cover;
+    display: flex;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+}
+
+nav img{
+    width:139px;
+    cursor: pointer;
+}
+nav .navigation {
+    display: flex;
+}
+#menu-btn{
+    width: 30px;
+    height: 30px;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 25px;
+
+
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(9, 9, 69);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav .navigation ul li a .log::after{
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'fontawesome';
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    color: #fff;
+    content: "\f107";
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: -10px;
+    position: relative;
+    top: 0px;
+
+}
+nav .navigation ul li a:hover{
+    color: red;
+
+}
+
+
+div.parent{
+    margin: 10%;
+    border: antiquewhite;
+    border-radius: 10px;
+    border-color: aquamarine;
+    background:fixed;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 8px 32px 0 rgba(6, 9, 23, 0.37);
+    justify-content: baseline;
+}
+ol{
+    text-wrap: wrap;
+    padding: 25px;
+   
+}
+div.parent .imp h2{
+
+    color: #d61310;
+     grid-row: ;
+    font-family:'Montserrat', 'Arial', sans-serif; ;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+li{
+    color: aliceblue;
+    text-shadow: 0ch;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+button{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 30px;
+    cursor: pointer;
+}
+.reg{
+    color: #fff;
+    background: rgb(21,21, 100);
+    transition: 0.3s ease;
+}
+.reg:hover{
+    color: rgb(21,21, 100);
+    background: #fff;
+
+}
+.hav{
+    color: #fff;
+    background: #fdc93b;
+    transition: 0.3s ease;
+}
+.hav:hover{
+    color:   #fdc93b;
+    background: #fff;
+}

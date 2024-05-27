@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New Student Registration </title>
+	<link rel="stylesheet" href="registration.css">
+	<link rel="stylesheet" href="app.js">
+	
+</head>
+<body>
+	<nav>
+        <img src="images/Logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="log" href="previous_registration.html" >Login </a></li>
+                <li><a href="Details.html">Academic Details</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="notice.html">Notice</a></li>
+            </ul>
+        </div>
+    </nav>
+
+	<div  class="parent">
+		<span class="imp"><b> 
+			<h2>IMPORTANT INSTRUCTIONS FOR STUDENTS</h2></b></span>
+		<ol>
+			<li>Please enter your mobile number and email id carefully.</li>
+			<li>You will receive OTP on your mobile number and email id after filling this form to verify your details.</li>
+			<li>After verifying your details with OTP, your account will be activated and you will receive SMS confirmation.</li>
+			<li>OTP received on your mobile number and email id will get expired in 30 minutes.</li>
+			<li>If you have received OTP & didn't use it within 30 minutes, use "Forget ID" link in Login Menu page to activate your account.</li>
+			<li>Please keep your mobile switched on and in network range to receive OTP quickly, please check for OTP email in your email's inbox and spam folders.</li>
+			<li>If you have already tried registering and did not receive any SMS/OTP, you can recover your account using "Forget ID" link in login menu.</li>
+			<li>Special symbols such as (#, !, $, &, *, .,) are not allowed in password.</li>
+		</ol><hr>
+		<section class="form-elements"> 
+			<div>
+
+				<label for="name">NAME:</label>
+				<input type="text" id="name" placeholder="Enter name from marks sheet..."> <br><br>
+				
+				<label for="email">Email:</label>
+				<input type="text" id="email" placeholder="Enter Email"><br><br>
+				
+				<label for="contact">Contact Number:</label>
+				<input type="text" id="contact" placeholder="Enter number as on addhar card"><br><br>
+			</div>
+			<div> 
+				<label for="dob">Date Of Birth:</label>
+				<input type="date" id="dob"  placeholder="Date of Birth"><br><br>
+				
+				<label for="pass"> Create Password:</label>
+				<input type="text" id="pass" placeholder="Enter Password"><br><br>
+				
+				<label for="repass"> Re-enter Password:</label>
+				<input type="text" id="repass" placeholder="Re-enter Password"><br><br>
+			</div>
+			
+		</section>	
+		<center> 
+			<a href="">
+			<button id="register" > CLICK TO SUBMIT</button></a>
+			<button id="clear">CLICK TO CLEAR</button>
+			<a href="login.html">
+			<button id="have_acc"onclick="">HAVE ACCOUNT</button></a>
+		</center>
+		</div>
+</body>
+</html>
