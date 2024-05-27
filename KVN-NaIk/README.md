@@ -1,2 +1,0 @@
-# FROM
-Certificarte course assignment
