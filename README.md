@@ -58,17 +58,17 @@ Open the `index.html` file in your web browser to view the homepage. From there,
 - Fill in the required details and submit the form to apply for admission.
 
 ## Project Structure
-demo-college-website/
-├── index.html
-├── login.html
-├── student-portal.html
-├── admission-form.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── scripts.js
-└── images/
-└── logo.png
+ demo-college-website <br>
+├── index.html<br>
+├── login.html<br>
+├── student-portal.html<br>
+├── admission-form.html<br>
+├── css/ <br>
+│ └── styles.css <br>
+├── js/ <br>
+│ └── scripts.js <br>
+└── images/ <br>
+└── logo.png <br>
 
 
 - `index.html`: The homepage of the website.
