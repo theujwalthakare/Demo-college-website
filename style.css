@@ -156,7 +156,7 @@ a{
 }*/
 /*Home*/
 #Home{
-    background-image:linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/back1.jpg);
+    background-image:linear-gradient(rgba(0, 5, 54, 0.644), rgba(5, 4, 46, 0.7)),url(KVN-NaIk/Pages/images/back1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -391,7 +391,7 @@ footer .subscribe{
 footer input{
     width: 220px;
     padding: 15px 12px;
-    background: #334f6c;
+    background: #7a90a8;
     border: none;
     outline: none;
     color: #fff;
@@ -400,7 +400,7 @@ footer .subscribe a{
     text-decoration: none;
     font-size: 0.9rem;
     padding: 12px 15px;
-    background-color: #fff;
+    background-color: #9b0000;
     font-weight: 600;
 }
 footer .subscribe a.yellow{
@@ -423,18 +423,20 @@ footer .copyright{
 }
 footer .copyright .pro-links{
     margin-top: 0px;
-    color: #757373;
+    color: #6c2121;
 }
 footer .copyright p{
     color: #fff;
 }
 footer .copyright .pro-links i{
+    border-radius: 50%;
+    justify-content: space-between;
     padding:10px 13px;
-    border: 1px solid rgb(82, 82, 119);
+    border: 1px solid rgb(1, 1, 134);
     cursor: pointer;
 }
 footer .copyright .pro-links i:hover{
-    color: rgb(21,21, 100);
+    color: rgb(0, 0, 218);
     background: #fff;
 }
 @media(max-width: 769){
