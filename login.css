@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/back1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    border-radius: 5px;
+    line-height: 1.42857143;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2.imp{
+    color: rgb(197, 195, 195);
+    font-size: 50px;
+    font-family:serif;
+    margin-left: 10px;
+    text-transform:uppercase;
+}
+.parent{
+
+    padding: 12px;
+    width: 12;
+}
+.form{
+    background:none;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding: 35px;
+    box-shadow: 0 8px 32px 0 rgba(231, 231, 232, 0.37);
+    justify-content: flex-end;
+}
+.form input{
+    margin:15px 0;
+    padding:15px 10px;
+    border: 1px solid rgb(21,21, 100);
+    border-radius: 5px;
+}
+
+#Home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin:15px 0;
+    padding: 12px 10px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 3px 08px 0; 
+}
+#Home a.blue{
+    color: #fff;
+    background: rgb(21,21, 100);
+    transition: 0.3s ease;
+}
+#Home a.blue:hover{
+    color: rgb(21,21, 100);
+    background: #fff;
+}
